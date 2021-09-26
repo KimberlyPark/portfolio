@@ -63,3 +63,14 @@ body {
     bottom: 20px;
     right: 140px;
 }
+
+.run-buddy-img {
+    height: 300px;
+    width: 600px;
+}
+
+.buddy-buses, .hugging-kitties, .palmer-office, .buddy-cabin {
+    height: 400px;
+    width: 300px;
+}
+

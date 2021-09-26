@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*style for body*/
+body {
+    background-color: lightgrey;
+    padding: 30 px 60px;
+    box-sizing: border-box;
+    max-width: 1100px;
+    display: block;
+}
+
+/*style for header*/
+.header {
+    padding: 20px;
+    background-color:lightgrey;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: flex;
+    position: sticky;
+    position:-webkit-sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+.header h1 {
+    border-radius: 5px;
+    display:inline-block;
+    padding: 0px 5px 0px 25px;
+}
+
+.header nav {
+    padding-top: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.header nav ul li {
+    display: inline;
+}
+
+/*Hero section*/
+
+.hero {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/fractal_198265.jpeg");  
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    }
+
+.hero-text h2 {
+    background-color: lightseagreen;
+    padding: 5px;
+    color: black;
+    position: absolute;
+    bottom: 20px;
+    right: 140px;
+}

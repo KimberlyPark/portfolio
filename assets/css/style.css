@@ -92,6 +92,12 @@ body {
     padding: 20px;
 }
 
+.project-images {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-evenly;
+}
 
 
 

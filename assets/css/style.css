@@ -102,6 +102,16 @@ p {
     justify-content: space-evenly;
 }
 
+.projectHeader1{
+    background: lightseagreen;
+    height: 45px;
+    width: 170px;
+    position: absolute;
+    z-index: 2;
+    left: 75px;
+    font-weight: bold;
+}
+
 .run-buddy-img {
     height: 300px;
     width: 600px;
@@ -113,17 +123,19 @@ p {
 }
 
 .contactInfo {
-    display: inline;
-    float: right;
-    margin: 10px;
+    display: flex;
+    align-items: right;
+    justify-content: space-evenly;
 }
 
 ul{
     list-style: none;
 }
 
+
+
 .contactInfo li, .contactInfo li a {
-    font-size: 10px;
+    font-size: 15px;
     font-weight: bold;
 }
 

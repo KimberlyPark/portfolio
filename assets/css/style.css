@@ -45,3 +45,21 @@ body {
 
 /*Hero section*/
 
+.hero {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/fractal_198265.jpeg");  
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    }
+
+.hero-text h2 {
+    background-color: lightseagreen;
+    padding: 5px;
+    color: black;
+    position: absolute;
+    bottom: 20px;
+    right: 140px;
+}

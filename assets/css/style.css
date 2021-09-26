@@ -140,3 +140,6 @@ ul{
 }
 
 
+@media screen and (max-width: 425px)
+.aboutMe h1, .projects h1, .contactMe h2 {
+    margin-left: 10px;

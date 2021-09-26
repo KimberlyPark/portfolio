@@ -1,3 +1,4 @@
+/*universal selectors*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -73,4 +74,26 @@ body {
     height: 400px;
     width: 300px;
 }
+
+
+.aboutMe, .portfolio, .contactMe {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 
+}
+
+.aboutMe h2, .portfolio h2, .contactMe h2 {
+    border-right: 2px solid black;
+    text-align: end;
+    padding-right: 20px;
+} 
+
+.aboutMe-text, .contactInfo {
+    padding: 20px;
+}
+
+
+
+
+
 

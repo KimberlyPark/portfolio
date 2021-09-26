@@ -56,7 +56,7 @@ body {
     background-size: cover;
     }
 
-.hero-text h2 {
+.hero-text h3 {
     background-color: lightseagreen;
     padding: 5px;
     color: black;
@@ -79,17 +79,6 @@ p {
     font-weight: bolder;
 }
 
-.run-buddy-img {
-    height: 300px;
-    width: 600px;
-}
-
-.buddy-buses, .hugging-kitties, .palmer-office, .buddy-cabin {
-    height: 400px;
-    width: 300px;
-}
-
-
 .aboutMe, .portfolio, .contactMe {
     display: flex;
     flex-wrap: wrap;
@@ -111,6 +100,16 @@ p {
     flex-wrap: wrap;
     padding: 20px;
     justify-content: space-evenly;
+}
+
+.run-buddy-img {
+    height: 300px;
+    width: 600px;
+}
+
+.buddy-buses, .hugging-kitties, .palmer-office, .buddy-cabin {
+    height: 300px;
+    width: 275px;
 }
 
 .contactInfo {
